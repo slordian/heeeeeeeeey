@@ -1,1 +1,17 @@
+#hey{
+    width: 400px;
+    height: 400px;
+}
 
+#container{
+    background-color: black;
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-hey{
+    font-size: 40px;
+}
