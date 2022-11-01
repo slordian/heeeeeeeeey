@@ -1,24 +1,31 @@
-#hey{
-    width: 400px;
-    height: 400px;
-}
-
-#container{
+body{
     background-color: black;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
 }
 
-#text-hey{
-    font-size: 40px;
+#hey{
     display: block;
 }
 
-#text-hou{
-    font-size: 40px;
+#hou{
     display: none;
+}
+
+#container{
+    width: 99vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-hey{
+    font-size: 60px;
+    user-select: none;
+    color: white;
+}
+
+#text-hou{
+    font-size: 60px;
+    user-select: none;
+    color: black;
 }
