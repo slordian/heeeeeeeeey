@@ -5,8 +5,8 @@
 
 #container{
     background-color: black;
-    width: 98vw;
-    height: 98vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,4 +14,10 @@
 
 #text-hey{
     font-size: 40px;
+    display: block;
+}
+
+#text-hou{
+    font-size: 40px;
+    display: none;
 }
